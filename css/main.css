@@ -1,0 +1,44 @@
+html {
+  background-color: #eee9de;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-family: Lato, sans-serif;
+  margin: 1.5rem;
+}
+
+section {
+  display: block;
+}
+
+.btn {
+  display: inline-block;
+  color: #333;
+  border-color: #333;
+  border-style: solid;
+  border-width: 3px;
+  font-size: 1.125rem;
+  padding: .4em .75em .5em;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: .125em;
+}
+
+.btn:hover {
+  background-color: #666;
+  color: #fff;
+  border-color: #666;
+}
