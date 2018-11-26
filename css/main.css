@@ -1,7 +1,7 @@
 html {
   background-color: #eee9de;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Lato, sans-serif;
   line-height: 1.5;
 }
 
@@ -9,19 +9,36 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  display: inline-block;
-  width: 100%;
+body {
   margin: 0;
 }
 
-h1 {
-  font-family: Lato, sans-serif;
-  margin: 1.5rem;
+img {
+  width: 100%;
+  display: block;
+}
+
+div {
+  display: inline-block;
+  max-width: 25em;
+  padding: 1em;
+  text-align: left;
+  vertical-align: middle;
+}
+
+h2 {
+  font-weight: bold;
+  margin-top: 0;
 }
 
 section {
   display: block;
+  padding: 2em 0;
+  text-align: center;
+}
+
+p {
+  text-align: left;
 }
 
 .btn {
@@ -33,6 +50,8 @@ section {
   font-size: 1.125rem;
   padding: .4em .75em .5em;
   text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
   border-radius: 8px;
   margin: .125em;
 }
